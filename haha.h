@@ -1,4 +1,4 @@
-class HAHA
+class Haha
 {
 	public:
 		void set(float,float,float);
@@ -15,3 +15,4 @@ class HAHA
 		float RA, RB;
 	
 };
+

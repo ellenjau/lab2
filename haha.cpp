@@ -1,7 +1,7 @@
 #include<cmath>
 #include"haha.h"
 
-void HAHA::set(float k,float a,float b)
+void Haha::set(float k,float a,float b)
 {
 	K=k;
 	RA=a;
@@ -9,18 +9,18 @@ void HAHA::set(float k,float a,float b)
 }
 
 
-float HAHA::getEA()
+float Haha::getEA()
 {
 	return 1/(1+ pow(10,((RB-RA)/400)));
 }
 	
-float HAHA::getEB()
+float Haha::getEB()
 {
 	return 1/(1+pow(10,((RA-RB)/400)));
 }
 
 
-float HAHA::getRA(float SA)
+float Haha::getRA(float SA)
 {
 	float temp_a;
 	temp_a=RA;
@@ -29,7 +29,7 @@ float HAHA::getRA(float SA)
 	return RA;
 }
 
-float HAHA::getRB(float SB)
+float Haha::getRB(float SB)
 {
 	float temp_b;
 	temp_b=RB;
@@ -38,4 +38,3 @@ float HAHA::getRB(float SB)
 	return RB;
 
 }
-

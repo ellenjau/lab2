@@ -11,7 +11,7 @@ int main()
 	ofstream fout;
 
 	//declare class HAHA and its object
-	HAHA ha;
+	Haha ha;
 
 	//declare the member data in class HAHA
 	float K;
